@@ -71,21 +71,38 @@
 // const arr = [1,2,3,4,5,5,6,7,8,9,10]
 // arr.map((n)=>console.log(n))
 
-const persons = [
-  { id: 1, name: "Ayaan", age: 21, city: "Dhaka" },
-  { id: 2, name: "Mira", age: 19, city: "Chittagong" },
-  { id: 3, name: "Rafi", age: 24, city: "Sylhet" },
-  { id: 4, name: "Sohana", age: 22, city: "Rajshahi" },
-  { id: 5, name: "Nabil", age: 20, city: "Khulna" }
-];
+// const persons = [
+//   { id: 1, name: "Ayaan", age: 21, city: "Dhaka" },
+//   { id: 2, name: "Mira", age: 19, city: "Chittagong" },
+//   { id: 3, name: "Rafi", age: 24, city: "Sylhet" },
+//   { id: 4, name: "Sohana", age: 22, city: "Rajshahi" },
+//   { id: 5, name: "Nabil", age: 20, city: "Khulna" }
+// ];
 
 // persons.map((person)=>console.log(person))
-let query = "Digontha"
-const findPerson = persons.find((person)=>person.name==query)
-if(!findPerson){
-    console.log("user not found");
-}
+// let query = "Digontha"
+// const findPerson = persons.find((person)=>person.name==query)
+// if(!findPerson){
+//     console.log("user not found");
+// }
 // console.log(findPerson);
+
+
+// Reducer Method
+// const numOfArr = [5,10,15]
+// const sum = numOfArr.reduce((prev,cur)=>prev + cur,0)
+// console.log(sum);
+
+// const arr = ["a","b","c","d","e","f"]
+// console.log(arr.slice(3,5));
+
+// const text= "digontha"
+
+// console.log(text.split("",3));
+
+
+
+
 
 
 
